@@ -25,9 +25,9 @@ jobs:
         run: mvn clean package
 
       # Step 4: Build Docker Image
-      - name: Build Docker image
-        run: docker build -t sample-java-app .
+      #- name: Build Docker image
+      #  run: docker build -t sample-java-app .
 
       # Step 5: Run Docker Container
-      - name: Run Docker container
-        run: docker run --rm sample-java-app
+      #- name: Run Docker container
+      #  run: docker run --rm sample-java-app
